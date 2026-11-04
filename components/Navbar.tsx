@@ -45,14 +45,15 @@ export function Navbar() {
         <div className="container-chapa">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-3">
 
-                <Image src="/src/image/logo.svg" alt="Chapa Zeta Logo" width={200} height={50} />
-
-              <div className="flex flex-col">
-                <span className="text-xl font-bold text-chapa-blue leading-tight">CHAPA ZETA</span>
-                <span className="text-xs text-gray-500 leading-tight">Reparación y pintura de carrocería</span>
-              </div>
+            <Link href="/">
+              <Image
+                src="/images/logo/logo_navbar.gif"
+                alt="CHAPA ZETA - Reparación y pintura de carrocería"
+                width={160}
+                height={48}
+                priority   // el logo está en pantalla desde el inicio
+              />
             </Link>
 
             {/* Desktop links */}

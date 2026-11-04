@@ -1,6 +1,6 @@
 "use client";
 
-import { Wrench, Paintbrush, Shield, Truck, Sparkles, Cog } from "lucide-react";
+import { Wrench, Paintbrush, Shield, Truck, Sparkles, Cog,  } from "lucide-react";
 import { services } from "@/lib/data";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 

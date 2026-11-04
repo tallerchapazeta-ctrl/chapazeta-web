@@ -45,14 +45,14 @@ export const siteConfig = {
 export const services: Service[] = [
   {
     id: "chapa",
-    title: "Reparación de Chapa",
-    description: "Recuperamos la estructura original de tu vehículo con técnicas avanzadas de enderezado y soldadura. Garantía en cada intervención.",
+    title: "Reparación de Carrocería",
+    description: "Recuperamos la estructura original de tu vehículo con técnicas avanzadas de enderezado y soldadura. Garantizamos la seguridad y estética de tu auto.",
     icon: "Wrench",
   },
   {
     id: "pintura",
-    title: "Pintura y Barnizado",
-    description: "Cabina de pintura profesional. Colores originales y acabados con garantía de por vida.",
+    title: "Pinturas y Acabados",
+    description: "Cabina de pintura. Colores originales. Devolvemos el brillo y la protección a tu vehículo con acabados de primera calidad.",
     icon: "Paintbrush",
   },
   {
@@ -69,9 +69,15 @@ export const services: Service[] = [
   },
   {
     id: "detailing",
-    title: "Detailing y Estética",
-    description: "Tratamientos de pulido, encerado y protección cerámica. Devolvemos el brillo original a tu vehículo con productos de primera línea.",
+    title: "Estética Automotriz",
+    description: "Tratamientos de abrillantado, pulido y encerado. Devolvemos el brillo original a tu vehículo con productos de primera línea.",
     icon: "Sparkles",
+  },
+  {
+    id: "Cristales",
+    title: "Reemplazo y Reparación de Cristales",
+    description: "Servicio especializado en el reemplazo de parabrisas, lunetas y otros cristales del vehículo. Garantía en todos nuestros trabajos.",
+    icon: "Glass",
   },
 ];
 
