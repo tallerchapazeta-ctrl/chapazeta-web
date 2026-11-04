@@ -15,6 +15,8 @@ module.exports = {
         'chapa-yellow-dark': '#E6C200',
         'chapa-gray': '#F5F5F5',
         'chapa-dark': '#1A1A1A',
+        'chapa-green': '#4CAF50',
+        'chapa-green-dark': '#388E3C',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

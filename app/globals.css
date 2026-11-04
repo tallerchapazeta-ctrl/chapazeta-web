@@ -23,6 +23,9 @@
   .btn-secondary {
     @apply inline-flex items-center justify-center px-6 py-3 bg-chapa-yellow text-chapa-dark font-semibold rounded-lg hover:bg-chapa-yellow-dark transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-chapa-yellow focus:ring-offset-2;
   }
+    .btn-secondary-wapp {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-chapa-green text-white font-semibold rounded-lg hover:bg-chapa-green-dark transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-chapa-green focus:ring-offset-2;
+  }
   .btn-outline {
     @apply inline-flex items-center justify-center px-6 py-3 border-2 border-chapa-blue text-chapa-blue font-semibold rounded-lg hover:bg-chapa-blue hover:text-white transition-all duration-200;
   }

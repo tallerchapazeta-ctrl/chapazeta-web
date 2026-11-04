@@ -79,7 +79,7 @@ export function Navbar() {
                 href={`https://wa.me/${siteConfig.whatsapp}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-secondary text-sm"
+                className="btn-secondary-wapp text-sm"
               >
                 WhatsApp
               </a>
@@ -122,7 +122,7 @@ export function Navbar() {
                   href={`https://wa.me/${siteConfig.whatsapp}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-secondary w-full text-center text-sm"
+                  className="btn-secondary-wapp w-full text-center text-sm"
                 >
                   WhatsApp
                 </a>
