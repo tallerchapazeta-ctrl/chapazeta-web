@@ -32,7 +32,7 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-6">
               <div className="rounded-lg flex items-center justify-center"> 
                 {/* w-10 h-10 bg-chapa-blue */}
-                <img src="./src/image/logo.svg" alt="Chapa Zeta Logo" className="w-200 h-200" />
+                <img src="/image/logo/logo.svg" alt="Chapa Zeta Logo" className="w-200 h-200" />
               </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">

@@ -3,9 +3,11 @@ import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import { siteConfig } from "@/lib/data";
 import { TurnoForm } from "@/components/TurnoForm";
 
+import MapaUbicacionWrapper from "@/components/MapaUbicacionWrapper";
+
 export const metadata: Metadata = {
   title: "Contacto y Turnos",
-  description: "Contactá a CHAPA ZETA para solicitar un turno, hacer una consulta o gestionar un siniestro. Atención en CABA y Gran Buenos Aires.",
+  description: "Contactá a CHAPA ZETA para solicitar un turno, hacer una consulta o gestionar un siniestro. Atención en Rafaela, Santa Fe.",
 };
 
 export default function ContactoPage() {
@@ -97,11 +99,12 @@ export default function ContactoPage() {
               </div>
 
               {/* Map placeholder */}
-              <div className="mt-8 bg-chapa-gray rounded-2xl h-64 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="w-12 h-12 text-chapa-blue/30 mx-auto mb-3" />
-                  <p className="text-gray-500 text-sm">Mapa interactivo</p>
-                  <p className="text-gray-400 text-xs mt-1">Integrar con Google Maps API</p>
+              <div className="mt-8 bg-chapa-gray rounded-2xl h-120 flex items-center justify-center">
+                <div className="mt-4 text-center w-full h-full px-4">
+                  <section className="my-4">
+                    <h2 className="heading-md mb-2">Dónde encontrarnos</h2>
+                    <MapaUbicacionWrapper />
+                  </section>
                 </div>
               </div>
             </div>
