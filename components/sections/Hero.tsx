@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Shield, Clock, Award } from "lucide-react";
+import { ArrowRight, Shield, Clock, Award, ListChecks, Handshake } from "lucide-react";
 import { siteConfig } from "@/lib/data";
 
 export function Hero() {
@@ -20,7 +20,7 @@ export function Hero() {
           <div className="text-white animate-slide-up">
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-8 border border-white/20">
               <Award className="w-4 h-4 text-chapa-yellow" />
-              <span className="text-sm font-medium">Líderes en reparación de chapa y pintura</span>
+              <span className="text-sm font-medium">Líderes en reparación y pintura de carrocerías</span>
             </div>
 
             <h1 className="heading-xl mb-6">
@@ -29,7 +29,7 @@ export function Hero() {
             </h1>
 
             <p className="text-lg sm:text-xl text-blue-100 mb-8 max-w-xl leading-relaxed">
-              {siteConfig.slogan}. Especialistas en siniestros, reparación de chapa, pintura y atención a flotas empresariales.
+              {siteConfig.slogan}. Reparación y pintura de carrocerias. Atención a flotas empresariales. Especialistas en siniestros. 
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -74,22 +74,20 @@ export function Hero() {
                 </div>
                 <div className="flex items-center gap-4 bg-white/10 rounded-xl p-4">
                   <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
-                    <Shield className="w-6 h-6 text-white" />
+                    <ListChecks className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <p className="text-white font-semibold">Presupuesto transparente</p>
-                    <div className="edit invisible hover/item:visible">
-                      <p className="hover/edit:text-blue-200 text-sm">Sin costos ocultos, aprobás antes de empezar</p>
-                    </div>
+                    <p className="text-blue-200 text-sm">Sin costos ocultos, aprobás antes de empezar</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 bg-white/10 rounded-xl p-4">
                   <div className="w-12 h-12 bg-blue-400 rounded-full flex items-center justify-center">
-                    <Award className="w-6 h-6 text-white" />
+                    <Handshake className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <p className="text-white font-semibold">Trabajamos con todas las aseguradoras</p>
-                    <p className="text-blue-200 text-sm">Gestión completa del siniestro</p>
+                    <p className="text-blue-200 text-sm">Te acompañamos en la gestión de tu siniestro</p>
                   </div>
                 </div>
               </div>

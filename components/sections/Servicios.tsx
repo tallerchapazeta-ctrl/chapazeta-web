@@ -1,16 +1,17 @@
 "use client";
 
-import { Wrench, Paintbrush, Shield, Truck, Sparkles, Cog,  } from "lucide-react";
+import { Wrench, SprayCan, Shield, Truck, Sparkles, Cog, CarFront } from "lucide-react";
 import { services } from "@/lib/data";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 
 const iconMap: Record<string, React.ReactNode> = {
   Wrench: <Wrench className="w-8 h-8" />,
-  Paintbrush: <Paintbrush className="w-8 h-8" />,
+  SprayCan: <SprayCan className="w-8 h-8" />,
   Shield: <Shield className="w-8 h-8" />,
   Truck: <Truck className="w-8 h-8" />,
   Sparkles: <Sparkles className="w-8 h-8" />,
   Cog: <Cog className="w-8 h-8" />,
+  MirrorRectangular: <CarFront className="w-8 h-8" />,
 };
 
 export function Servicios() {

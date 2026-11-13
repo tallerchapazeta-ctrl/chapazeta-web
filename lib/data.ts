@@ -53,12 +53,12 @@ export const services: Service[] = [
     id: "pintura",
     title: "Pinturas y Acabados",
     description: "Cabina de pintura. Colores originales. Devolvemos el brillo y la protección a tu vehículo con acabados de primera calidad.",
-    icon: "Paintbrush",
+    icon: "SprayCan",
   },
   {
     id: "siniestros",
     title: "Gestión de Siniestros",
-    description: "Nos ocupamos de todo el trámite con tu aseguradora. Desde el primer contacto hasta la entrega del vehículo, con seguimiento en tiempo real.",
+    description: "Te acompañamos y asesoramos en todo el trámite con tu aseguradora. Desde el primer contacto hasta la entrega del vehículo, con seguimiento en tiempo real.",
     icon: "Shield",
   },
   {
@@ -75,9 +75,9 @@ export const services: Service[] = [
   },
   {
     id: "Cristales",
-    title: "Reemplazo y Reparación de Cristales",
+    title: "Reemplazo de Cristales",
     description: "Servicio especializado en el reemplazo de parabrisas, lunetas y otros cristales del vehículo. Garantía en todos nuestros trabajos.",
-    icon: "Glass",
+    icon: "MirrorRectangular",
   },
 ];
 

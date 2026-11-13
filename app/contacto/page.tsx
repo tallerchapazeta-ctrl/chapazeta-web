@@ -4,6 +4,7 @@ import { siteConfig } from "@/lib/data";
 import { TurnoForm } from "@/components/TurnoForm";
 
 import MapaUbicacionWrapper from "@/components/MapaUbicacionWrapper";
+import { Testimonios } from "@/components/sections/Testimonios";
 
 export const metadata: Metadata = {
   title: "Contacto y Turnos",
@@ -123,6 +124,7 @@ export default function ContactoPage() {
           </div>
         </div>
       </section>
+      <Testimonios />
     </>
   );
 }
