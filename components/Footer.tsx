@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin } from "lucide-react";
 import { siteConfig } from "@/lib/data";
+import Image from "next/image";
 
 const footerLinks = {
   servicios: [
@@ -32,7 +33,15 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-6">
               <div className="rounded-lg flex items-center justify-center"> 
                 {/* w-10 h-10 bg-chapa-blue */}
-                <img src="/image/logo/logo.svg" alt="Chapa Zeta Logo" className="w-200 h-200" />
+                <Link href="/">
+                  <Image
+                    src="/images/logo/logo_footer_v3-01.png"
+                    alt="CHAPA ZETA - Reparación y pintura de carrocería"
+                    width={160}
+                    height={48}
+                    priority   // el logo está en pantalla desde el inicio
+                  />
+                </Link>
               </div>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">

@@ -53,7 +53,7 @@ export const services: Service[] = [
     id: "pintura",
     title: "Pinturas y Acabados",
     description: "Cabina de pintura. Colores originales. Devolvemos el brillo y la protección a tu vehículo con acabados de primera calidad.",
-    icon: "SprayCan",
+    icon: "PaintGun",
   },
   {
     id: "siniestros",
@@ -77,7 +77,7 @@ export const services: Service[] = [
     id: "Cristales",
     title: "Reemplazo de Cristales",
     description: "Servicio especializado en el reemplazo de parabrisas, lunetas y otros cristales del vehículo. Garantía en todos nuestros trabajos.",
-    icon: "MirrorRectangular",
+    icon: "FrontGlass",
   },
 ];
 
@@ -114,7 +114,7 @@ export const blogPosts: BlogPost[] = [
 
 ## 1. Verificar la seguridad de todos
 
-Antes que nada, asegurate de que todos los ocupantes de tu vehículo estén bien. Si hay heridos, llamá inmediatamente al SAME (107) o al 911.
+Antes que nada, asegurate de que todos los ocupantes de tu vehículo estén bien. Si hay heridos, llamá inmediatamente al Servicio de Emergencias (107) o al 911.
 
 ## 2. No te hagas cargo de culpas
 
@@ -126,13 +126,14 @@ Sacá fotos de:
 - Los daños de ambos vehículos
 - La posición de los autos en la calle
 - Señales de tránsito cercanas
-- Cualquier detalle relevante (clima, hora, testigos)
+- Cualquier detalle relevante (hora, testigos)
 
 ## 4. Intercambiá información
 
 Pedí y entregá:
-- Nombre completo y DNI
+- Nombre completo y DNI (licencia de conducir)
 - Datos del seguro (compañía, póliza, vigencia)
+- Datos del PAS (Productor asegurador) si corresponde (domicilio, teléfono)
 - Patente del otro vehículo
 - Teléfono de contacto
 
@@ -153,7 +154,7 @@ Tenés derecho a elegir el taller donde reparar tu vehículo. CHAPA ZETA trabaja
 Un accidente no tiene que ser una pesadilla. Con estos pasos claros y un taller confiable, tu vehículo volverá a la ruta en el menor tiempo posible.
 
 ¿Tenés dudas sobre tu siniestro? Contactanos y te asesoramos sin cargo.`,
-    date: "2026-07-15",
+    date: "2026-11-01",
     category: "Consejos",
     image: "/images/blog-choque.jpg",
     author: "Equipo CHAPA ZETA",
@@ -174,7 +175,7 @@ Los compradores de autos usados valoran la pintura de fábrica porque:
 
 ## Nuestro compromiso
 
-En CHAPA ZETA usamos cabina de pintura con control de temperatura y humedad, y productos de primera línea. Cada reparación incluye garantía de color y acabado.
+En CHAPA ZETA usamos cabina de pintura especializada, y productos de primera línea.
 
 ## Consejo final
 
@@ -253,6 +254,5 @@ Contactanos para una evaluación gratuita de tu flota.`,
 export const stats = [
   { value: "15+", label: "Años de experiencia" },
   { value: "12.000+", label: "Vehículos reparados" },
-  { value: "98%", label: "Clientes satisfechos" },
   { value: "24h", label: "Respuesta en siniestros" },
 ];
